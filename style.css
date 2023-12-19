@@ -1,0 +1,60 @@
+body {
+    background-color: rgb(126, 212, 162);
+}
+h1 {
+    font-family: Tahoma;
+    color: navy;
+    font-size: 60px;
+    font-weight: 600;
+    text-decoration: overline underline;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.5;
+    letter-spacing: 10px;
+    background-color: aquamarine;
+    border: 3px dotted rgb(241, 84, 84);
+    margin-left: 270px;
+    margin-right: 270px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: Honeydew;
+    font-size: 40px;
+    font-weight: 500;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    background-color: aquamarine;
+}
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: MistyRose;
+    font-size: 30;
+    font-weight: 300;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-align: left;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    background-color: rgb(30, 214, 107);
+}
+p {
+    font-family: fantasy;
+    color: Fuchsia;
+    font-size: 15px;
+    font-weight: 100;
+    text-transform: lowercase;
+    text-align: left;
+    line-height: 1;
+    letter-spacing: 1px;
+    background-color: LightSkyBlue;
+    
+}
+.bluetext{
+    color: blue;
+}
