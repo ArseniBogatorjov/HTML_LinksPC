@@ -1,10 +1,12 @@
 body {
     background-color: rgb(126, 212, 162);
+    margin-left: 150px;
+    margin-right: 200px;
 }
 h1 {
     font-family: Tahoma;
     color: navy;
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 600;
     text-decoration: overline underline;
     text-transform: uppercase;
@@ -20,7 +22,7 @@ h1 {
 
 }
 h2 {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Tahoma;
     color: Honeydew;
     font-size: 40px;
     font-weight: 500;
@@ -32,29 +34,81 @@ h2 {
     background-color: aquamarine;
 }
 h3 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Tahoma;
     color: MistyRose;
+    text-align: center;
     font-size: 30;
     font-weight: 300;
     text-decoration: underline;
     text-transform: uppercase;
-    text-align: left;
     line-height: 1.5;
     letter-spacing: 2px;
     background-color: rgb(30, 214, 107);
 }
 p {
-    font-family: fantasy;
-    color: Fuchsia;
-    font-size: 15px;
+    font-family: Arial;
+    color: bisque;
+    font-size: 18px;
     font-weight: 100;
     text-transform: lowercase;
     text-align: left;
     line-height: 1;
     letter-spacing: 1px;
-    background-color: LightSkyBlue;
-    
+    background-color: gray;
+    margin-left: 0 auto;
 }
-.bluetext{
+.bluetext {
     color: blue;
+}
+table {
+    border: 8px solid black;
+    border-collapse: collapse
+}
+th {
+    border: 5px solid red;
+    background-color: aquamarine;
+    text-decoration: underline;
+    font-size: 30px;
+
+}
+td {
+    border: 5px dashed red;
+    background-color: bisque;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+ul {
+    color: blue;
+    background-color: aqua;
+    font-size: 15px;
+}
+ol {
+    color: aqua;
+    background-color: blue;
+}
+
+h2, h3{
+    margin-left: 270px;
+    margin-right: 270px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+td p {
+    color: black;
+    background-color: azure
+}
+.tableButton {
+    border: 2px double black;
+}
+.textButton{
+    font-size: 20px;
+}
+.imgTd {
+    background-color: bisque;
+    text-align: center;
+}
+.imgP{
+    background-color: rgb(126, 212, 162);
 }
